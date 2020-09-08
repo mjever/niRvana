@@ -1,0 +1,1 @@
+$(function(){$('.floatTools').append($('<div class="tool-button"><i class="fas fa-moon"></i></div>').click(function(event){$('body').toggleClass('night');$(this).find('i').toggleClass('fa-moon').toggleClass('fa-sun')}))});
